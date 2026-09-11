@@ -233,7 +233,7 @@ export const t = {
   },
   hero: {
     eyebrow: { en: 'Great Comfort, Lexury and hospitality', am: 'የላቀ ምቾት፣ ጥራትና ምርጥ መስተንግዶ', had: 'Xiqqa xiiya gorsu' },
-    title1: { en: ' ', am: ' ', had: ' ' },
+    title1: { en: 'Stay aWhile ', am: ' ', had: ' ' },
     title2: { en: 'Feel at home.', am: 'ከቤትዎ ውጭ ሁለተኛ ቤትዎ።', had: 'Lampe geeshsha.' },
     welcome: { en: 'Welcome to Tsedeke Grand.', am: 'ወደ ሽደቀ ግራንድ እንኳን በደህና መጡ።', had: 'Tsedeke Grand gidaa welcome.' },
     copy: { en: ' ', am: 'በሆሳዕና መግቢያ ጥራት ያለው ሆቴል።', had: 'Hossana giddo quiet hotel.' },
