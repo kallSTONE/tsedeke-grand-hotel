@@ -11,15 +11,15 @@ const photos = {
   heroAlternateMobile: '/assets/Images/NightView.webp',
   heroThird: '/assets/Images/building.webp',
   heroThirdMobile: '/assets/Images/Buildingshot.webp',
-  heroFourth: '/assets/Images/LemHotelVenue.webp',
-  heroFourthMobile: '/assets/Images/LemHotelVenue.webp',
-  heroFifth: '/assets/Images/Stage.webp',
-  heroFifthMobile: '/assets/Images/Stage.webp',
+  heroFourth: '/assets/Images/venue2.webp',
+  heroFourthMobile: '/assets/Images/venue2.webp',
+  heroFifth: '/assets/Images/room1.webp',
+  heroFifthMobile: '/assets/Images/room1.webp',
   room: '/assets/Images/room1.webp', 
   roomTwo: '/assets/Images/room2.webp', 
-  dining: '/assets/Images/menu/dorowat.webp', 
+  dining: '/assets/Images/restaurant2.webp', 
   pool: '/assets/Images/NightView.webp', 
-  spa: '/assets/Images/Stage.webp', 
+  spa: '/assets/Images/room1.webp', 
 }; 
 
 const culturalTours = [
@@ -50,14 +50,24 @@ const culturalTours = [
 ];
 
 
+// const heroImages = [
+//   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
+//   { desktop: photos.hero, mobile: photos.heroMobile },
+//   { desktop: photos.heroThird, mobile: photos.heroThirdMobile },  
+//   { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
+//   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
+//   { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
+// ];
+
 const heroImages = [
-  { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
-  { desktop: photos.hero, mobile: photos.heroMobile },
-  { desktop: photos.heroThird, mobile: photos.heroThirdMobile },  
-  { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
-  { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
-  { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
-];
+    { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
+    { desktop: photos.hero, mobile: photos.heroMobile }, 
+    { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
+    { desktop: photos.dining, mobile: photos.dining },
+    { desktop: photos.heroThird, mobile: photos.heroThirdMobile }, 
+    { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
+  ];
+
 
 const services = [
   {
