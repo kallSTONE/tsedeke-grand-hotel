@@ -49,16 +49,6 @@ const culturalTours = [
   },
 ];
 
-
-// const heroImages = [
-//   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
-//   { desktop: photos.hero, mobile: photos.heroMobile },
-//   { desktop: photos.heroThird, mobile: photos.heroThirdMobile },  
-//   { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
-//   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
-//   { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
-// ];
-
 const heroImages = [
     { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
     { desktop: photos.hero, mobile: photos.heroMobile }, 
@@ -92,7 +82,7 @@ const services = [
     id: 'wifi',
     name: { en: 'Free-WiFi', am: 'ነጻ-ዋይፋይ', had: 'Free_WiFi' },
     icon: Wifi,
-    image: '/assets/Images/Coridor.webp',
+    image: '/assets/Images/coridor.webp',
   },
 ];    
      
@@ -183,7 +173,11 @@ export default function Home({ onBook }: { onBook: () => void }) {
           <p className="hero-copy">{tr(t.hero.copy, lang)}</p>
           <div className="hero-actions">
             <button className="primary-button" onClick={onBook}>{tr(t.hero.cta1, lang)} <ArrowUpRight size={18} /></button>
-            <button className="play-button" type="button" onClick={() => setIsVideoOpen(true)}><span><Play size={14} fill="currentColor" /></span> {tr(t.hero.cta2, lang)}</button>
+            <button className="play-button" type="button" onClick={() => setIsVideoOpen(true)}>
+              <span>
+                <Play size={14} fill="currentColor" />
+              </span> {tr(t.hero.cta2, lang)}
+            </button>
           </div>
         </div>
       </section>
