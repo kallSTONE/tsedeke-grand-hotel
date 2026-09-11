@@ -54,9 +54,9 @@ const heroImages = [
   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
   { desktop: photos.hero, mobile: photos.heroMobile },
   { desktop: photos.heroThird, mobile: photos.heroThirdMobile },  
+  { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
   { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
-  { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
 ];
 
 const services = [
